@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB0962E41342D34A00BB90F7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB0962E31342D34A00BB90F7 /* UIKit.framework */; };
+		BB0962E61342D34A00BB90F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB0962E51342D34A00BB90F7 /* Foundation.framework */; };
+		BB0962E81342D34A00BB90F7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB0962E71342D34A00BB90F7 /* CoreGraphics.framework */; };
+		BB0962EE1342D34A00BB90F7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BB0962EC1342D34A00BB90F7 /* InfoPlist.strings */; };
+		BB0962F11342D34A00BB90F7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BB0962F01342D34A00BB90F7 /* main.m */; };
+		BB0962F41342D34B00BB90F7 /* FakepalAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BB0962F31342D34B00BB90F7 /* FakepalAppDelegate.m */; };
+		BB0962F71342D34B00BB90F7 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB0962F51342D34B00BB90F7 /* MainWindow.xib */; };
+		BB0962FA1342D34B00BB90F7 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB0962F91342D34B00BB90F7 /* FirstViewController.m */; };
+		BB0962FD1342D34B00BB90F7 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB0962FC1342D34B00BB90F7 /* SecondViewController.m */; };
+		BB0963001342D34B00BB90F7 /* FirstView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB0962FE1342D34B00BB90F7 /* FirstView.xib */; };
+		BB0963031342D34B00BB90F7 /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB0963011342D34B00BB90F7 /* SecondView.xib */; };
+		BB09630A1342D34B00BB90F7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB0962E31342D34A00BB90F7 /* UIKit.framework */; };
+		BB09630B1342D34B00BB90F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB0962E51342D34A00BB90F7 /* Foundation.framework */; };
+		BB09630C1342D34B00BB90F7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB0962E71342D34A00BB90F7 /* CoreGraphics.framework */; };
+		BB0963141342D34B00BB90F7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BB0963121342D34B00BB90F7 /* InfoPlist.strings */; };
+		BB0963171342D34B00BB90F7 /* FakepalTests.h in Resources */ = {isa = PBXBuildFile; fileRef = BB0963161342D34B00BB90F7 /* FakepalTests.h */; };
+		BB0963191342D34B00BB90F7 /* FakepalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BB0963181342D34B00BB90F7 /* FakepalTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BB09630D1342D34B00BB90F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB0962D61342D34A00BB90F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB0962DE1342D34A00BB90F7;
+			remoteInfo = Fakepal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BB0962DF1342D34A00BB90F7 /* Fakepal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fakepal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB0962E31342D34A00BB90F7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BB0962E51342D34A00BB90F7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BB0962E71342D34A00BB90F7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BB0962EB1342D34A00BB90F7 /* Fakepal-Info.plist */ = {isa = PBXFileReference; path = "Fakepal-Info.plist"; sourceTree = "<group>"; };
+		BB0962ED1342D34A00BB90F7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BB0962EF1342D34A00BB90F7 /* Fakepal-Prefix.pch */ = {isa = PBXFileReference; path = "Fakepal-Prefix.pch"; sourceTree = "<group>"; };
+		BB0962F01342D34A00BB90F7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BB0962F21342D34B00BB90F7 /* FakepalAppDelegate.h */ = {isa = PBXFileReference; path = FakepalAppDelegate.h; sourceTree = "<group>"; };
+		BB0962F31342D34B00BB90F7 /* FakepalAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FakepalAppDelegate.m; sourceTree = "<group>"; };
+		BB0962F61342D34B00BB90F7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		BB0962F81342D34B00BB90F7 /* FirstViewController.h */ = {isa = PBXFileReference; path = FirstViewController.h; sourceTree = "<group>"; };
+		BB0962F91342D34B00BB90F7 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		BB0962FB1342D34B00BB90F7 /* SecondViewController.h */ = {isa = PBXFileReference; path = SecondViewController.h; sourceTree = "<group>"; };
+		BB0962FC1342D34B00BB90F7 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		BB0962FF1342D34B00BB90F7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstView.xib; sourceTree = "<group>"; };
+		BB0963021342D34B00BB90F7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondView.xib; sourceTree = "<group>"; };
+		BB0963091342D34B00BB90F7 /* FakepalTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FakepalTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB0963111342D34B00BB90F7 /* FakepalTests-Info.plist */ = {isa = PBXFileReference; path = "FakepalTests-Info.plist"; sourceTree = "<group>"; };
+		BB0963131342D34B00BB90F7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BB0963151342D34B00BB90F7 /* FakepalTests-Prefix.pch */ = {isa = PBXFileReference; path = "FakepalTests-Prefix.pch"; sourceTree = "<group>"; };
+		BB0963161342D34B00BB90F7 /* FakepalTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FakepalTests.h; sourceTree = "<group>"; };
+		BB0963181342D34B00BB90F7 /* FakepalTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FakepalTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB0962DC1342D34A00BB90F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB0962E41342D34A00BB90F7 /* UIKit.framework in Frameworks */,
+				BB0962E61342D34A00BB90F7 /* Foundation.framework in Frameworks */,
+				BB0962E81342D34A00BB90F7 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB0963051342D34B00BB90F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB09630A1342D34B00BB90F7 /* UIKit.framework in Frameworks */,
+				BB09630B1342D34B00BB90F7 /* Foundation.framework in Frameworks */,
+				BB09630C1342D34B00BB90F7 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB0962D41342D34A00BB90F7 = {
+			isa = PBXGroup;
+			children = (
+				BB0962E91342D34A00BB90F7 /* Fakepal */,
+				BB09630F1342D34B00BB90F7 /* FakepalTests */,
+				BB0962E21342D34A00BB90F7 /* Frameworks */,
+				BB0962E01342D34A00BB90F7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB0962E01342D34A00BB90F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB0962DF1342D34A00BB90F7 /* Fakepal.app */,
+				BB0963091342D34B00BB90F7 /* FakepalTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB0962E21342D34A00BB90F7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BB0962E31342D34A00BB90F7 /* UIKit.framework */,
+				BB0962E51342D34A00BB90F7 /* Foundation.framework */,
+				BB0962E71342D34A00BB90F7 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BB0962E91342D34A00BB90F7 /* Fakepal */ = {
+			isa = PBXGroup;
+			children = (
+				BB0962F21342D34B00BB90F7 /* FakepalAppDelegate.h */,
+				BB0962F31342D34B00BB90F7 /* FakepalAppDelegate.m */,
+				BB0962F51342D34B00BB90F7 /* MainWindow.xib */,
+				BB0962F81342D34B00BB90F7 /* FirstViewController.h */,
+				BB0962F91342D34B00BB90F7 /* FirstViewController.m */,
+				BB0962FB1342D34B00BB90F7 /* SecondViewController.h */,
+				BB0962FC1342D34B00BB90F7 /* SecondViewController.m */,
+				BB0962FE1342D34B00BB90F7 /* FirstView.xib */,
+				BB0963011342D34B00BB90F7 /* SecondView.xib */,
+				BB0962EA1342D34A00BB90F7 /* Supporting Files */,
+			);
+			path = Fakepal;
+			sourceTree = "<group>";
+		};
+		BB0962EA1342D34A00BB90F7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BB0962EB1342D34A00BB90F7 /* Fakepal-Info.plist */,
+				BB0962EC1342D34A00BB90F7 /* InfoPlist.strings */,
+				BB0962EF1342D34A00BB90F7 /* Fakepal-Prefix.pch */,
+				BB0962F01342D34A00BB90F7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BB09630F1342D34B00BB90F7 /* FakepalTests */ = {
+			isa = PBXGroup;
+			children = (
+				BB0963161342D34B00BB90F7 /* FakepalTests.h */,
+				BB0963181342D34B00BB90F7 /* FakepalTests.m */,
+				BB0963101342D34B00BB90F7 /* Supporting Files */,
+			);
+			path = FakepalTests;
+			sourceTree = "<group>";
+		};
+		BB0963101342D34B00BB90F7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BB0963111342D34B00BB90F7 /* FakepalTests-Info.plist */,
+				BB0963121342D34B00BB90F7 /* InfoPlist.strings */,
+				BB0963151342D34B00BB90F7 /* FakepalTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB0962DE1342D34A00BB90F7 /* Fakepal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB09631C1342D34B00BB90F7 /* Build configuration list for PBXNativeTarget "Fakepal" */;
+			buildPhases = (
+				BB0962DB1342D34A00BB90F7 /* Sources */,
+				BB0962DC1342D34A00BB90F7 /* Frameworks */,
+				BB0962DD1342D34A00BB90F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fakepal;
+			productName = Fakepal;
+			productReference = BB0962DF1342D34A00BB90F7 /* Fakepal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BB0963081342D34B00BB90F7 /* FakepalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB09631F1342D34B00BB90F7 /* Build configuration list for PBXNativeTarget "FakepalTests" */;
+			buildPhases = (
+				BB0963041342D34B00BB90F7 /* Sources */,
+				BB0963051342D34B00BB90F7 /* Frameworks */,
+				BB0963061342D34B00BB90F7 /* Resources */,
+				BB0963071342D34B00BB90F7 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB09630E1342D34B00BB90F7 /* PBXTargetDependency */,
+			);
+			name = FakepalTests;
+			productName = FakepalTests;
+			productReference = BB0963091342D34B00BB90F7 /* FakepalTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB0962D61342D34A00BB90F7 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = BB0962D91342D34A00BB90F7 /* Build configuration list for PBXProject "Fakepal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BB0962D41342D34A00BB90F7;
+			productRefGroup = BB0962E01342D34A00BB90F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB0962DE1342D34A00BB90F7 /* Fakepal */,
+				BB0963081342D34B00BB90F7 /* FakepalTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB0962DD1342D34A00BB90F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB0962EE1342D34A00BB90F7 /* InfoPlist.strings in Resources */,
+				BB0962F71342D34B00BB90F7 /* MainWindow.xib in Resources */,
+				BB0963001342D34B00BB90F7 /* FirstView.xib in Resources */,
+				BB0963031342D34B00BB90F7 /* SecondView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB0963061342D34B00BB90F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB0963141342D34B00BB90F7 /* InfoPlist.strings in Resources */,
+				BB0963171342D34B00BB90F7 /* FakepalTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BB0963071342D34B00BB90F7 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB0962DB1342D34A00BB90F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB0962F11342D34A00BB90F7 /* main.m in Sources */,
+				BB0962F41342D34B00BB90F7 /* FakepalAppDelegate.m in Sources */,
+				BB0962FA1342D34B00BB90F7 /* FirstViewController.m in Sources */,
+				BB0962FD1342D34B00BB90F7 /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB0963041342D34B00BB90F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB0963191342D34B00BB90F7 /* FakepalTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BB09630E1342D34B00BB90F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB0962DE1342D34A00BB90F7 /* Fakepal */;
+			targetProxy = BB09630D1342D34B00BB90F7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BB0962EC1342D34A00BB90F7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB0962ED1342D34A00BB90F7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BB0962F51342D34B00BB90F7 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB0962F61342D34B00BB90F7 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		BB0962FE1342D34B00BB90F7 /* FirstView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB0962FF1342D34B00BB90F7 /* en */,
+			);
+			name = FirstView.xib;
+			sourceTree = "<group>";
+		};
+		BB0963011342D34B00BB90F7 /* SecondView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB0963021342D34B00BB90F7 /* en */,
+			);
+			name = SecondView.xib;
+			sourceTree = "<group>";
+		};
+		BB0963121342D34B00BB90F7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB0963131342D34B00BB90F7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BB09631A1342D34B00BB90F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BB09631B1342D34B00BB90F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		BB09631D1342D34B00BB90F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Fakepal/Fakepal-Prefix.pch";
+				INFOPLIST_FILE = "Fakepal/Fakepal-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BB09631E1342D34B00BB90F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Fakepal/Fakepal-Prefix.pch";
+				INFOPLIST_FILE = "Fakepal/Fakepal-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BB0963201342D34B00BB90F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Fakepal.app/Fakepal";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FakepalTests/FakepalTests-Prefix.pch";
+				INFOPLIST_FILE = "FakepalTests/FakepalTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		BB0963211342D34B00BB90F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Fakepal.app/Fakepal";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FakepalTests/FakepalTests-Prefix.pch";
+				INFOPLIST_FILE = "FakepalTests/FakepalTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB0962D91342D34A00BB90F7 /* Build configuration list for PBXProject "Fakepal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB09631A1342D34B00BB90F7 /* Debug */,
+				BB09631B1342D34B00BB90F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB09631C1342D34B00BB90F7 /* Build configuration list for PBXNativeTarget "Fakepal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB09631D1342D34B00BB90F7 /* Debug */,
+				BB09631E1342D34B00BB90F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BB09631F1342D34B00BB90F7 /* Build configuration list for PBXNativeTarget "FakepalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB0963201342D34B00BB90F7 /* Debug */,
+				BB0963211342D34B00BB90F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB0962D61342D34A00BB90F7 /* Project object */;
+}
