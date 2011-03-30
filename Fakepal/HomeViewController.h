@@ -1,5 +1,5 @@
 //
-//  FirstViewController.h
+//  HomeViewController.h
 //  Fakepal
 //
 //  Created by Nicole Aptekar on 11/03/29.
@@ -7,9 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <dispatch/dispatch.h>
 
-
-@interface FirstViewController : UIViewController {
+@interface HomeViewController : UIViewController {
+    dispatch_queue_t loadingQueue;
 
 }
 

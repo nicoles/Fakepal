@@ -1,15 +1,15 @@
 //
-//  FirstViewController.m
+//  HomeViewController.m
 //  Fakepal
 //
 //  Created by Nicole Aptekar on 11/03/29.
 //  Copyright 2011 __MyCompanyName__. All rights reserved.
 //
 
-#import "FirstViewController.h"
+#import "HomeViewController.h"
 
 
-@implementation FirstViewController
+@implementation HomeViewController
 
 /*
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
@@ -25,6 +25,14 @@
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
 
+- (id)init{
+    if ((self = [super init])){
+        self.title = @"Home";
+        self.tabBarItem.image = [UIImage imageNamed:@"53-house.png"];
+    }
+    loadingQueue = dispatch_queue_create("com.fakepal.loadingqueue", NULL);
+    return self;
+}
 
 - (void)didReceiveMemoryWarning
 {

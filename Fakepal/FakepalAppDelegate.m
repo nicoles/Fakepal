@@ -7,6 +7,9 @@
 //
 
 #import "FakepalAppDelegate.h"
+#import "HomeViewController.h"
+#import "SendMoneyController.h"
+#import "RequestMoneyController.h"
 
 @implementation FakepalAppDelegate
 
@@ -14,12 +17,21 @@
 @synthesize window=_window;
 
 @synthesize tabBarController=_tabBarController;
+@synthesize homeViewController=_homeViewController;
+@synthesize sendMoneyController=_sendMoneyController;
+@synthesize requestMoneyController=_requestMoneyController;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    _tabBarController = [[UITabBarController alloc] init];
+    _homeViewController = [[HomeViewController alloc] init];
+    _sendMoneyController = [[SendMoneyController alloc] init];
+    _requestMoneyController = [[RequestMoneyController alloc] init];
+    _tabBarController.viewControllers = [NSArray arrayWithObjects:_homeViewController, _sendMoneyController, _requestMoneyController, nil];
+    [_window addSubview:_tabBarController.view];
     // Override point for customization after application launch.
     // Add the tab bar controller's current view as a subview of the window
-    self.window.rootViewController = self.tabBarController;
+
     [self.window makeKeyAndVisible];
     return YES;
 }

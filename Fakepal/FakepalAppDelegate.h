@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
+@class HomeViewController;
+@class SendMoneyController;
+@class RequestMoneyController;
+
 @interface FakepalAppDelegate : NSObject <UIApplicationDelegate, UITabBarControllerDelegate> {
 
 }
@@ -16,4 +20,7 @@
 
 @property (nonatomic, retain) IBOutlet UITabBarController *tabBarController;
 
+@property (nonatomic, retain) HomeViewController *homeViewController;
+@property (nonatomic, retain) SendMoneyController *sendMoneyController;
+@property (nonatomic, retain) RequestMoneyController *requestMoneyController;
 @end
